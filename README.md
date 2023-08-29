@@ -24,6 +24,9 @@ Start your Vue application with the following command:
 ```
 npm run serve
 ```
+
+### Authentication
+Authentication code has been removed from this repository for this particular set of exercises.
 ​
 ### Vuex
 ​
