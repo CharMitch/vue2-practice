@@ -10,16 +10,15 @@ The first thing you'll need to do is to download any dependencies by running thi
 npm install
 ```
 
-# .NET
+**.NET**
+```
 VUE_APP_REMOTE_API=https://localhost:44358
-
-# Java
-VUE_APP_REMOTE_API=http://localhost:9000
 ```
 
-Your Vue frontend communicates with this API endpoint to authenticate and register users.
-
-Before moving on, you'll need to modify the `.env` file. If you're a Java student, remove the .NET API endpoint from the `.env` file. If you're a .NET student, remove the Java API endpoint from the `.env` file. Make sure the URL is correct, and then save the file.
+**Java**
+```
+VUE_APP_REMOTE_API=http://localhost:9000
+```
 
 Start your Vue application with the following command:
 ​
@@ -27,15 +26,15 @@ Start your Vue application with the following command:
 npm run serve
 ```
 
-### Authentication
+## Authentication
 
 Authentication code has been removed from this repository for this particular set of exercises.
 ​
-### Vuex
+## Vuex
 ​
 Vuex acts as a centralized data store.
 ​
 
-### Vue Router
+## Vue Router
 
 The Vue Router allows you to setup routes to different views in your application and to API endpoints.
