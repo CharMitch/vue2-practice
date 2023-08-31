@@ -1,8 +1,10 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link v-bind:to="{ name: 'home' }">Home</router-link>&nbsp;|&nbsp;
-      <router-link v-bind:to="{ name: 'logout' }" v-if="$store.state.token != ''">Logout</router-link>
+      <!-- Change the spans below into nav items linked to their corresponding views -->
+      <span>Home</span>
+      &nbsp;|&nbsp;
+      <span>About Us</span>
     </div>
     <router-view />
   </div>

@@ -1,13 +1,15 @@
 <template>
   <div class="home">
-    <h1>Welcome to my webpage!</h1>
+    <h1>Welcome to my homepage!</h1>
     <label>What is your name?</label><br>
     <input class="input" type="text">
+    <p>Oh... So your name is <!-- Add bound user property here -->?</p>
     <div>
       <p>Hobbies:</p>
       <ul id="hobbies">
       </ul>
     </div>
+    <div><span>Words to live by: <span> You can lead a horse to Visual Studio, but you can't make him code.</div>
   </div>
 </template>
 
@@ -16,9 +18,10 @@ export default {
   name: "home",
   data() {
     return {
+      user: "",
       hobbies: [
-        "Opera singing",
-        "Hot air balooning",
+        "Cheese rolling",
+        "Astral projection",
         "Electric fencing"
       ]
     }
