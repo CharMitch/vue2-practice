@@ -8,17 +8,13 @@ The first thing you'll need to do is to download any dependencies by running thi
 ​
 ```
 npm install
-
 ```
 
 # .NET
 VUE_APP_REMOTE_API=https://localhost:44358
 
-```
-
 # Java
 VUE_APP_REMOTE_API=http://localhost:9000
-
 ```
 
 Your Vue frontend communicates with this API endpoint to authenticate and register users.
@@ -29,7 +25,6 @@ Start your Vue application with the following command:
 ​
 ```
 npm run serve
-
 ```
 
 ### Authentication
