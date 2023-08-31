@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-// Import your views here...
+import Home from '../views/Home'
 
 Vue.use(Router)
 
@@ -13,7 +13,11 @@ const router = new Router({
   mode: 'history',
   base: process.env.BASE_URL,
   routes: [
-    // Setup routing for your views here...
+    {
+      path: '/',
+      name: 'home',
+      component: Home
+    }
   ]
 });
 

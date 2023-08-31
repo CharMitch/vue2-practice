@@ -32,7 +32,6 @@ export default {
   name: "home",
   data() {
     return {
-      user: "",
       hobbies: [
         "Cheese rolling",
         "Astral projection",
