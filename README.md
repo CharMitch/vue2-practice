@@ -6,19 +6,19 @@ This document walks you through how to set up and run the project, as well as pr
 ​
 ## Project setup
 ​
-The first thing you'll need to do is to download any dependencies by running this command:
+(1) The first thing you'll need to do is to download any dependencies by running this command:
 ​
 ```
 npm install
 ```
 
-Start your Vue application with the following command:
+(2) Start your Vue application with the following command:
 ​
 ```
 npm run serve
 ```
 
-Click on the localhost link that appears to open the application in a browser.
+(3) Click on the localhost link that appears to open the application in a browser.
 
 ## Icebreakers
 
