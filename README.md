@@ -1,4 +1,4 @@
-# Kata Kickstarts - Vue (September 11, 2023)
+# Kata Kickstarts - Vue (September 12, 2023)
 ​
 This is a small Vue project scaled-down from the capstone starter code. This document walks you through how to set up and run the project, as well as providing a handful of katas to work on in the code.
 ​
