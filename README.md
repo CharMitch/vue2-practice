@@ -84,3 +84,12 @@ Open services/DadJokeService.js and view the comments.
 Go back to Home.vue.
 - Add the created() lifecycle hook to the script. Inside it, setup a call to the axios method we just wrote, setting the value of randomDadJoke to the response data.
 - Use data-binding to insert the randomDadJoke value into the em element next to "Dad Joke of the Day."
+
+## Bonus 
+
+### Kata #8: Call the API with a button
+
+It's nice to get a hilarious joke once per visit, but wouldn't it be nicer to be able to generate as many as you want?
+
+- Refactor the Home.vue script to use a method to generate a random dad joke.
+- Add a button to the template that is setup with an event listener that reacts by changing the text next to "Dad Joke of the Day."
