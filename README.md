@@ -10,21 +10,13 @@ The first thing you'll need to do is to download any dependencies by running thi
 npm install
 ```
 
-**.NET**
-```
-VUE_APP_REMOTE_API=https://localhost:44358
-```
-
-**Java**
-```
-VUE_APP_REMOTE_API=http://localhost:9000
-```
-
 Start your Vue application with the following command:
 ​
 ```
 npm run serve
 ```
+
+Click on the localhost link that appears to open the application in a browser.
 
 ## Icebreakers
 
