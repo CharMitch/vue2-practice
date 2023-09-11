@@ -46,23 +46,31 @@ The *hobbies* array is a data property holding several elements. We need to disp
 
 - In the ```#hobbies ul```, generate an ```li``` for each element and display its value.
 
-## Breakout rooms
-
-### Kata #4: Link the navbar items to views
-
-Our homepage currently has ```nav``` items that aren't linked to anything.
-
-- In *router/index.js*, setup routes for the homepage and *About Us* page
-- Then, in *App.vue*, replace the ```span``` elements in the ```nav``` with routed links.
-
-### Kata #5: Build and import a component
+### Kata #4: Build and import a component
 
 In *AboutUs.vue*, there's a static header (```h1```) for and list (```ul```) of contact information.
 
 - Build a separate component for this HTML in *ContactInfo.vue*.
 - Then, import it back into the *About Us* page.
 
-### Kata #6: Centralize some data in the Vuex datastore
+## Breakout rooms
+
+### Kata #5: Link the navbar items to views
+
+Our homepage currently has ```nav``` items that aren't linked to anything.
+
+- In *router/index.js*, setup routes for the homepage and *About Us* page
+- Then, in *App.vue*, replace the ```span``` elements in the ```nav``` with routed links.
+
+### Kata #6: Pass props
+
+Let's pass a prop from the *AboutUsView* down to the *ContactInfo* component.
+
+- Add the prop as an attribute on the *ContactInfo* element in *AboutUsView.vue*.
+- Catch and utilize the prop in *ContactInfo.vue*.
+
+
+### Kata #7: Centralize some data in the Vuex datastore
 
 Our "words to live by" are sage and may be needed in other places in the app outside of the homepage.
 
@@ -71,7 +79,7 @@ Our "words to live by" are sage and may be needed in other places in the app out
 ​
 ## Challenge
 
-### Kata #7: Consume an external API
+### Kata #8: Consume an external API
 
 Sadly, there's an empty space for a "Dad Joke of the Day" on our homepage! We need to use Axios to call the *icanhazdadjoke* API to get one.
 
@@ -86,7 +94,7 @@ Go back to Home.vue.
 
 ## Bonus 
 
-### Kata #8: Call the API with a button
+### Kata #9: Call the API with a button
 
 It's nice to get a hilarious joke once per visit, but wouldn't it be nicer to be able to generate as many as you want?
 
