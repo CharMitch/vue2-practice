@@ -86,8 +86,8 @@ In *AboutUs.vue*, there's a static header (```h1```) for and list (```ul```) of 
 
 Let's pass a prop from the *AboutUsView* down to the *ContactInfo* component.
 
-- Add the prop as an attribute on the *ContactInfo* element in *AboutUsView.vue*.
-- Catch and utilize the prop in *ContactInfo.vue*.
+- Add a prop for the Contact Info's section header as an attribute on the *ContactInfo* element in *AboutUsView.vue*.
+- Catch and utilize the prop in *ContactInfo.vue* to replace its static `h2`.
 
 <br>
 
