@@ -106,7 +106,7 @@ Our "words to live by" are sage and may be needed in other places in the app out
 
 ### Kata #8: Consume an external API
 
-Sadly, there's an empty space for a "Dad Joke of the Day" on our homepage! We need to use Axios to call the *icanhazdadjoke* API to get one.
+Sadly, there's an empty space for a "Dad Joke of the Day" on our homepage! We need to use Axios to call the [icanhazdadjoke](https://icanhazdadjoke.com/api) API to get one.
 
 Open *services/DadJokeService.js* and view the comments.
 - Then, import axios and create an instance of it to use in your requests.
