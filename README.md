@@ -87,7 +87,7 @@ In *AboutUs.vue*, there's a static header (```h1```) for and list (```ul```) of 
 Let's pass a prop from the *AboutUsView* down to the *ContactInfo* component.
 
 - Add a prop for the Contact Info's section header as an attribute on the *ContactInfo* element in *AboutUsView.vue*.
-- Catch and utilize the prop in *ContactInfo.vue* to replace its static `h2`.
+- Catch and utilize the prop in *ContactInfo.vue* to replace its static ```h2```.
 
 <br>
 
@@ -114,8 +114,10 @@ Open *services/DadJokeService.js* and view the comments.
 - Finally, to get just the joke from the API response, create a config that only accepts plain text and pass it into the GET method.
 
 Go back to Home.vue.
-- Add the ```created``` lifecycle hook to the ```script```. Inside it, setup a call to the axios method we just wrote, setting the value of *randomDadJoke* to the response data.
+- Import the *DadJokeService.vue* into the ```script```.
+- Add a ```methods``` section to the ```script```. Inside it, write a ```generateRandomDadJoke()``` method that uses the imported *DadJokeService* to call the axios method we just wrote, and then set the value of the *randomDadJoke* data property to the response data.
 - Use data-binding to insert the randomDadJoke value into the ```em``` element next to "Dad Joke of the Day."
+- Finally, add the ```created``` lifecycle hook to the ```script```. Inside it, setup a call to the axios method we just wrote, setting the value of *randomDadJoke* to the response data. This will populate a joke every time the page loads.
 
 <br>
 <hr>
