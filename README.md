@@ -63,7 +63,7 @@ The *hobbies* array is a data property holding several elements. We need to disp
 Our homepage currently has ```nav``` items that aren't linked to anything.
 
 - In *router/index.js*, setup routes for the homepage and *About Us* page
-- Then, in *App.vue*, replace the ```span``` elements in the navigation with routed links.
+- Then, locate the navigation and replace the plain text with routed links.
 
 <br>
 <hr>
